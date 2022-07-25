@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "latent-diffusion"
+version = "0.1.0"
+description = ""
+authors = [ "CompVis"]
+readme = "README.md"
+dependencies = {python = "^3.9"}
+
+[[tool.poetry.packages]]
+include = "ldm"
+
+[build-system]
+requires = [ "relaxed-poetry-core>=0.1.2"]
+build-backend = "poetry.core.masonry.api"
